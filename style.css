@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Redressed&family=Roboto:wght@100;400&family=Shizuru&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  /* font-family: "Redressed", cursive; */
+  font-family: "Roboto", sans-serif;
+  /* font-family: "Shizuru", cursive; */
+}
+
+#head {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+}
+
+.halfDiv {
+  /* display: flex; */
+  width: 50%;
+  height: 500px;
+  /* text-align: center; */
+  /* border: 1px solid red; */
+}
+#left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.top {
+  width: 70%;
+  border-left: 7px solid;
+  border-image: linear-gradient(red, tomato);
+  border-image-slice: 1;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+.top h1 {
+  font-size: 3rem;
+}
+#right img {
+  width: 600px;
+}
