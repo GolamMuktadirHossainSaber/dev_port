@@ -10,13 +10,32 @@ body {
   font-family: "Roboto", sans-serif;
   /* font-family: "Shizuru", cursive; */
 }
-
-#head {
+/* Common */
+.color {
+  color: tomato;
+}
+.h1 {
+  font-size: 3rem;
+  font-family: "Shizuru", cursive;
+}
+.h3 {
+  font-family: "Redressed", cursive;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.container {
   width: 90%;
   margin: auto;
   margin-top: 50px;
   display: flex;
 }
+/* Common */
+/* #head {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  display: flex;
+} */
 
 .halfDiv {
   /* display: flex; */
@@ -30,6 +49,15 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.top {
+  width: 70%;
+  border-left: 7px solid;
+  border-image: linear-gradient(red, tomato);
+  border-image-slice: 1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
 #left p {
   width: 80%;
   margin-bottom: 20px;
@@ -51,18 +79,29 @@ button {
   flex-direction: column;
   align-items: center;
 }
-.top {
-  width: 70%;
-  border-left: 7px solid;
-  border-image: linear-gradient(red, tomato);
-  border-image-slice: 1;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-.top h1 {
-  font-size: 3rem;
-  font-family: "Shizuru", cursive;
-}
+
 #right img {
-  width: 600px;
+  width: 500px;
+}
+#myMission {
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.cardWrapper {
+  margin-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  width: 25%;
+  height: 300px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.card img {
+  width: 45%;
+  margin-bottom: 20px;
 }
