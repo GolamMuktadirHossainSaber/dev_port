@@ -30,6 +30,22 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+#left p {
+  width: 80%;
+  margin-bottom: 20px;
+  font-family: "Redressed", cursive;
+  font-size: 1.5rem;
+}
+button {
+  text-decoration: none;
+  color: white;
+  width: 20%;
+  padding: 10px 20px;
+  background: linear-gradient(90deg, lightsalmon, tomato);
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
 #right {
   display: flex;
   flex-direction: column;
@@ -40,11 +56,12 @@ body {
   border-left: 7px solid;
   border-image: linear-gradient(red, tomato);
   border-image-slice: 1;
-  padding: 5px;
+  padding: 10px;
   margin-bottom: 20px;
 }
 .top h1 {
   font-size: 3rem;
+  font-family: "Shizuru", cursive;
 }
 #right img {
   width: 600px;
