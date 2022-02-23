@@ -20,7 +20,7 @@ body {
 }
 .h3 {
   font-family: "Redressed", cursive;
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin-bottom: 20px;
 }
 .container {
@@ -29,26 +29,27 @@ body {
   margin-top: 50px;
   display: flex;
 }
-/* Common */
-/* #head {
-  width: 90%;
-  margin: auto;
-  margin-top: 50px;
-  display: flex;
-} */
-
 .halfDiv {
-  /* display: flex; */
+  display: flex;
   width: 50%;
   height: 500px;
   /* text-align: center; */
   /* border: 1px solid red; */
 }
-#left {
+.col_with_txt {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+.col_with_txt p {
+  width: 80%;
+  margin-bottom: 20px;
+  /* font-family: "Redressed", cursive; */
+  font-size: 1.2rem;
+  color: #00000091;
+}
+/* Common */
+
 .top {
   width: 70%;
   border-left: 7px solid;
@@ -58,12 +59,6 @@ body {
   margin-bottom: 20px;
 }
 
-#left p {
-  width: 80%;
-  margin-bottom: 20px;
-  font-family: "Redressed", cursive;
-  font-size: 1.5rem;
-}
 button {
   text-decoration: none;
   color: white;
@@ -74,10 +69,9 @@ button {
   cursor: pointer;
   border-radius: 15px;
 }
-#right {
+.right {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: flex-end;
 }
 
 #right img {
@@ -90,14 +84,14 @@ button {
 }
 .cardWrapper {
   margin-top: 50px;
-  width: 90%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .card {
-  width: 25%;
-  height: 300px;
+  width: 29%;
+  height: 400px;
   border-radius: 20px;
   padding: 20px;
 }
